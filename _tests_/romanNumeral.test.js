@@ -13,5 +13,11 @@ describe('convertRoman', () => {
     expect(convertRoman(4)).toEqual("IV");
   });
 
-  tett
+  test('should return V for 5', () => {
+    expect(convertRoman(5)).toEqual("V");
+  });
+
+  test('should return IX for 9', () => {
+    expect(convertRoman(9)).toEqual("IX");
+  })
 });
