@@ -19,5 +19,13 @@ describe('convertRoman', () => {
 
   test('should return IX for 9', () => {
     expect(convertRoman(9)).toEqual("IX");
-  })
+  });
+
+  test('should return X for 10', () => {
+    expect(convertRoman(10)).toEqual("X");
+  });
+
+  test('should return XL for 40', () => {
+    expect(convertRoman(40)).toEqual("XL");
+  });
 });
