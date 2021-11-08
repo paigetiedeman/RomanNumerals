@@ -8,4 +8,10 @@ describe('convertRoman', () => {
   test('should return I for 1', () => {
     expect(convertRoman(1)).toEqual("I");
   });
+
+  test('should return IV for 4', () => {
+    expect(convertRoman(4)).toEqual("IV");
+  });
+
+  tett
 });
