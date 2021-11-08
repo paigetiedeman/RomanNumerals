@@ -4,6 +4,9 @@ export default function convertRoman(num) {
   if (isNaN(num)) {
     return NaN;
   }
+  if (num % 50 == 0) {
+    return "L";
+  }
   if (num % 40 == 0) {
     return "XL";
   }

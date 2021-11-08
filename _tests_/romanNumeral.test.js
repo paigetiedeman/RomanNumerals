@@ -28,4 +28,7 @@ describe('convertRoman', () => {
   test('should return XL for 40', () => {
     expect(convertRoman(40)).toEqual("XL");
   });
+  test('should return L for 50', () => {
+    expect(convertRoman(50)).toEqual("L");
+  });
 });
