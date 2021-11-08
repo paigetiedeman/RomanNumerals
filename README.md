@@ -1,15 +1,12 @@
-# Project Name
+# Roman Numerals
 
 #### This is a site..
 
-#### _By Paige Tiedeman_
+#### _By Paige Tiedeman & Chynna Lew_
 
 ## Technologies Used
 
-* HTML
-* CSS
 * JavaScript
-* JQuery
 * Bootstrap
 * Jest
 * ESLint
@@ -21,16 +18,12 @@
 
 ## Description
 
-This simple HTML site uses Javascript...
+Using functional programming to convert numbers to Roman Numerals.
 
 ## Setup/Installation Requirements
 
 * _Clone or download the zip file of this repository to your desktop_
-* _Commit and push your .gitignore file to your repo_
-* _Run $ npm install_
-* _Check title on package.json and webpack file_
-* _Open index.html in your browser_
-* _ _
+
 
 ## Known Bugs
 
@@ -40,8 +33,9 @@ This simple HTML site uses Javascript...
 
 _[MIT](https://opensource.org/licenses/MIT)_  
 
-Copyright (c) 2021 Paige Tiedeman
+Copyright (c) 2021 Paige Tiedeman and Chynna Lew
 
 ## Contact Information
 
-_Paige Tiedeman **paigetiedeman@gmail.com**_
+_Paige Tiedeman github.com/paigetiedeman_
+_Chynna Lew chynnalew@yahoo.com_
