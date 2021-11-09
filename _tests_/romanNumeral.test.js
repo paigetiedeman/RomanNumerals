@@ -56,4 +56,12 @@ describe('convertRoman', () => {
   test('should return M for 1000', () => { 
     expect(convertRoman(1000)).toEqual("M");
   });
+
+  test('should return VIII for 8', () => { 
+    expect(convertRoman(8)).toEqual("VIII");
+  });
+
+  test('should return CDLII for 452', () => { 
+    expect(convertRoman(452)).toEqual("CDLII");
+  });
 });
