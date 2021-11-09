@@ -56,3 +56,9 @@ export default function convertRoman(num) {
   const ones = "I";
   return ones.repeat(num);
 }
+
+// export const romanClosure = (numbers => {
+//   return function(numerals){
+//     return 
+//   }
+// })
