@@ -4,6 +4,27 @@ export default function convertRoman(num) {
   if (isNaN(num)) {
     return NaN;
   }
+  if (num <= 0){
+    return "";
+  }
+  if (num % 1000 === 0) { 
+    return "M";
+  }
+  if (num % 900 === 0) { 
+    return "CM";
+  }
+  if (num % 500 === 0) {
+    return "D";
+  }
+  if (num % 400 === 0) {
+    return "CD";
+  }
+  if (num % 100 === 0) {
+    return "C";
+  }
+  if (num % 90 === 0) {
+    return "XC";
+  }
   if (num % 50 == 0) {
     return "L";
   }

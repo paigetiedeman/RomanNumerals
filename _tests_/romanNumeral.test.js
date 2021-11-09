@@ -28,7 +28,32 @@ describe('convertRoman', () => {
   test('should return XL for 40', () => {
     expect(convertRoman(40)).toEqual("XL");
   });
+
   test('should return L for 50', () => {
     expect(convertRoman(50)).toEqual("L");
+  });
+
+  test('should return XC for 90', () => { 
+    expect(convertRoman(90)).toEqual("XC");
+  });
+
+  test('should return C for 100', () => { 
+    expect(convertRoman(100)).toEqual("C");
+  });
+
+  test('should return CD for 400', () => { 
+    expect(convertRoman(400)).toEqual("CD");
+  });
+
+  test('should return D for 500', () => { 
+    expect(convertRoman(500)).toEqual("D");
+  });
+
+  test('should return CM for 900', () => { 
+    expect(convertRoman(900)).toEqual("CM");
+  });
+
+  test('should return M for 1000', () => { 
+    expect(convertRoman(1000)).toEqual("M");
   });
 });
